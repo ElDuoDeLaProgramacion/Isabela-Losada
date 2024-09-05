@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Interfaz Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+        }
+        header {
+            background-color: #00b953;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            
+        }
+
+        .image-item {
+            display: flex;
+            align-items: center; 
+            gap: 20px; 
+            justify-content: flex-start; 
+            margin-bottom: 20px; 
+            border: 2px solid black
+        }
+
+        .image-item img {
+            max-width: 450px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-item p {
+            margin: 0;
+            max-width: 400px; 
+            
+        }
+
+        footer {
+            background-color: #00b953;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis vacaciones en San Andres</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Galería de Imágenes</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="../Losada/Imagenes/Viaje.png" alt="Imagen 1">
+                    <p>En familia decidimos viajar a San andres ya que es una isla muy bonita y no habíamos tenido la oportunidad de ir todos.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Losada/Imagenes/Primer.png" alt="Imagen 2">
+                    <p>Esa foto fue el primer día en la mañana que decidimos conocer un poco de la isla y disfrutar del mar de los siete colores.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Losada/Imagenes/Familia.png" alt="Imagen 3">
+                    <p>⁠Esta foto es muy especial ya que es en familia y es un muy buen recuerdo que nos hace felices.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Losada/Imagenes/paisaje.png" alt="Imagen 3">
+                    <p>⁠Este fue mi paisaje favorito de todo el viaje ya qué teniamos la vista de el mar y me parece muy bonita la foto.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Losada/Imagenes/ultimo.png" alt="Imagen 3">
+                    <p>Esta foto la tomamos el último dia de vacaciones en familia, me trae muy buenos recuerdos ya que todos usamoes el mismo traje de baño.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Esta es mi galeria</p>
+    </footer>
+</body>
+</html>
